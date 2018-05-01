@@ -15,6 +15,6 @@ def prime?(number)
       else
         i += 1
       end
-    return true
+    end
   end
 end# Add  code here!
