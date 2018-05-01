@@ -8,7 +8,7 @@ def prime?(number)
 
   i = 0
   array = *(2..number)
-  while i < array.length
+  while i < array.length - 1
     array.each do |num|
       if number % num == 0
         return false
