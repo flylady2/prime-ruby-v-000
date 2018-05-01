@@ -6,12 +6,14 @@ def prime?(number)
     return true
   end
 
-  i = 0
+
   array = *(2..number)
-  while i < array.length - 1
+
     array.each do |num|
-      if number % num == 0
-        return false
+      return false if number % num == 0
+      true
+    end
+
       else
         i += 1
       end
