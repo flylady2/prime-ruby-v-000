@@ -12,7 +12,7 @@ def prime?(number)
     array.each do |num|
       if number % num == 0
         return false
-      elsif number % != 0
+      else
         i += 1
       end
     true
