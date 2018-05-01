@@ -11,9 +11,9 @@ def prime?(number)
   array.each do |num|
     return false if number % num == 0
   end
+  true
 
-    return true
-  end
+
 
 
 end# Add  code here!
