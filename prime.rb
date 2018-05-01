@@ -7,7 +7,7 @@ def prime?(number)
   end
 
   i = 0
-  array = *(2..number)
+  array = *(1..number)
   while i < array.length
     array.each do |num|
       if number % num == 0
@@ -15,7 +15,6 @@ def prime?(number)
       else
         i += 1
       end
-    end
     return true
   end
 end# Add  code here!
