@@ -13,7 +13,4 @@ def prime?(number)
   end
   true
 
-
-
-
 end# Add  code here!
