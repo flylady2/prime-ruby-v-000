@@ -14,10 +14,6 @@ def prime?(number)
       true
     end
 
-      else
-        i += 1
-      end
-      return true
-    end
+    
   end
 end# Add  code here!
