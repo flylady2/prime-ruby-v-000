@@ -5,7 +5,7 @@ def prime?(number)
   elsif number == 2
     return true
   end
-  
+
   i = 0
   array = *(2..number)
   while i < array.length
