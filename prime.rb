@@ -10,6 +10,9 @@ def prime?(number)
   array = *(2..number-1)
   array.each do |num|
     return false if number % num == 0
+  else
+    return true
+  end
 
   true
 
